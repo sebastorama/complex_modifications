@@ -1,0 +1,57 @@
+{
+  "title": "Capslock as tmux prefix",
+  "rules": [
+    {
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "caps_lock_pressed",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "caps_lock_pressed",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h"
+          },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "caps_lock_pressed",
+              "value": 1
+            }
+          ],
+          "to": [
+            {
+              "key_code": "b",
+              "modifiers": ["left_control"]
+
+            },
+            {
+              "key_code": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
