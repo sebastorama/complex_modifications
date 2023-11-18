@@ -9,7 +9,9 @@
           "from": {
             "key_code": "caps_lock",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -44,7 +46,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "p"
@@ -66,7 +70,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "n"
@@ -88,7 +94,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "comma"
@@ -110,7 +118,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "s"
@@ -132,7 +142,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "f"
@@ -157,7 +169,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "d"
@@ -179,11 +193,15 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "semicolon",
-              "modifiers": ["left_shift"]
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ]
         },
@@ -202,7 +220,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "1"
@@ -224,7 +244,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "2"
@@ -246,7 +268,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "3"
@@ -268,7 +292,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "4"
@@ -290,7 +316,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "5"
@@ -312,7 +340,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "6"
@@ -334,7 +364,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "7"
@@ -356,7 +388,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "8"
@@ -378,7 +412,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_control"]
+              "modifiers": [
+                "left_control"
+              ]
             },
             {
               "key_code": "9"
