@@ -1,0 +1,64 @@
+{
+  "title": "FN as modifier to gain extra keys",
+  "rules": [
+    {
+      "description": "Extra Volume Keys",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "volume_increment"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "volume_decrement"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "mute"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
