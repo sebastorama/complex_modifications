@@ -264,6 +264,54 @@
         {
           "type": "basic",
           "from": {
+            "key_code": "o"
+          },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "caps_lock_pressed",
+              "value": 1
+            }
+          ],
+          "to": [
+            {
+              "key_code": "b",
+              "modifiers": [
+                "left_control"
+              ]
+            },
+            {
+              "key_code": "o"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "space"
+          },
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "caps_lock_pressed",
+              "value": 1
+            }
+          ],
+          "to": [
+            {
+              "key_code": "b",
+              "modifiers": [
+                "left_control"
+              ]
+            },
+            {
+              "key_code": "space"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
             "key_code": "1"
           },
           "conditions": [
